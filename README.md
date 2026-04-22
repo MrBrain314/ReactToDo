@@ -159,7 +159,7 @@ Le thème est défini via l'attribut `data-theme` sur la balise `<html>` dans `i
 
 ## 📸 Aperçu de l'application
 
-| **ACCUEIL** | AJOUT D'UNE TÂCHE** | **AUCUNE TÂCHE MOYENNE**** |
+| **ACCUEIL** | **AJOUT D'UNE TÂCHE** | **AUCUNE TÂCHE MOYENNE** |
 | :-----: | :---------------: | :---------------: |
 | <img src="https://github.com/MrBrain314/ReactToDo/blob/main/captures/Accueil%20.png?raw=true" width="300"> | <img src="https://github.com/MrBrain314/ReactToDo/blob/main/captures/Ajout%20d'une%20taches.png?raw=true" width="300"> | <img src="https://github.com/MrBrain314/ReactToDo/blob/main/captures/Aucune%20tache%20moyenne.png?raw=true" width="300"> |
 | **TÂCHES URGENTES** | **TOUTES LES TÂCHES** | **TÂCHES BASSES** |
