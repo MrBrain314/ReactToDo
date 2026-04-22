@@ -1,4 +1,4 @@
-# 📝 Todo App — React + Vite + Tailwind + DaisyUI
+# 📝 Todo App - React + Vite + Tailwind + DaisyUI
 
 ## Préambule
 
@@ -48,14 +48,14 @@ Une application de gestion de tâches (Todo List) construite avec React, permett
 
 ### Prérequis
 
-- Node.js 18+
-- npm ou yarn
+- Node.js 
+- npm 
 
 ### Cloner le projet
 
 ```bash
-git clone https://github.com/ton-username/ton-repo.git
-cd ton-repo
+git clone https://github.com/MrBrain314/ReactToDo.git
+cd ReactToDo
 ```
 
 ### Installer les dépendances
@@ -96,15 +96,15 @@ src/
 
 Ce projet m'a permis de mettre en pratique les concepts suivants :
 
-- **Composants** — découpage de l'interface en composants réutilisables
-- **Props** — communication parent → enfant avec typage TypeScript
-- **useState** — gestion du state local (tâches, filtres, sélection)
-- **useEffect** — synchronisation avec le localStorage
-- **Rendu conditionnel** — affichage selon l'état de l'application
-- **Listes & `.map()`** — affichage dynamique des tâches
-- **Événements** — gestion des clics, changements d'input et de select
-- **Types TypeScript** — `type`, unions, props typées
-- **Set** — structure de données pour la sélection multiple
+- **Composants** - découpage de l'interface en composants réutilisables
+- **Props** - communication parent → enfant avec typage TypeScript
+- **useState** - gestion du state local (tâches, filtres, sélection)
+- **useEffect** - synchronisation avec le localStorage
+- **Rendu conditionnel** - affichage selon l'état de l'application
+- **Listes & `.map()`** - affichage dynamique des tâches
+- **Événements** - gestion des clics, changements d'input et de select
+- **Types TypeScript** - `type`, unions, props typées
+- **Set** - structure de données pour la sélection multiple
 
 ---
 
@@ -142,8 +142,8 @@ Le thème est défini via l'attribut `data-theme` sur la balise `<html>` dans `i
 
 ## ⚠️ Limitations
 
-- Les données sont sauvegardées en **localStorage** — elles sont propres à chaque navigateur et ne sont pas partagées entre utilisateurs ou appareils.
-- Pas de backend ni de base de données — une prochaine étape pourrait être d'intégrer **Supabase** ou **Firebase** pour une persistance réelle.
+- Les données sont sauvegardées en **localStorage** - elles sont propres à chaque navigateur et ne sont pas partagées entre utilisateurs ou appareils.
+- Pas de backend ni de base de données - une prochaine étape pourrait être d'intégrer **Supabase** ou **Firebase** pour une persistance réelle.
 
 ---
 
@@ -156,6 +156,18 @@ Le thème est défini via l'attribut `data-theme` sur la balise `<html>` dans `i
 - [ ] Mode responsive mobile amélioré
 
 ---
+
+## 📸 Aperçu de l'application
+
+| **ACCUEIL** | AJOUT D'UNE TÂCHE** | **AUCUNE TÂCHE MOYENNE**** |
+| :-----: | :---------------: | :---------------: |
+| <img src="https://github.com/MrBrain314/ReactToDo/blob/main/captures/Accueil%20.png?raw=true" width="300"> | <img src="https://github.com/MrBrain314/ReactToDo/blob/main/captures/Ajout%20d'une%20taches.png?raw=true" width="300"> | <img src="https://github.com/MrBrain314/ReactToDo/blob/main/captures/Aucune%20tache%20moyenne.png?raw=true" width="300"> |
+| **TÂCHES URGENTES** | **TOUTES LES TÂCHES** | **TÂCHES BASSES** |
+| :-------------: | :-------------: | :-----------: |
+| <img src="https://github.com/MrBrain314/ReactToDo/blob/main/captures/Taches%20urgentes.png?raw=true" width="300"> | <img src="https://github.com/MrBrain314/ReactToDo/blob/main/captures/Toutes%20les%20taches.png?raw=true" width="300"> | <img src="https://github.com/MrBrain314/ReactToDo/blob/main/captures/Taches%20basses.png?raw=true" width="300"> |
+| **TÂCHES TERMINÉES** | **LISTES À SUPPRIMER** |  **TÂCHES MOYENNES** |
+| :--------------: | :----------------: | :----------: |
+| <img src="https://github.com/MrBrain314/ReactToDo/blob/main/captures/Taches%20terminnees.png?raw=true" width="300"> | <img src="https://github.com/MrBrain314/ReactToDo/blob/main/captures/Listes%20de%20taches%20%C3%A0%20supprimees.png?raw=true" width="300"> | <img src="https://github.com/MrBrain314/ReactToDo/blob/main/captures/Taches%20moyennes.png?raw=true" width="300"> |
 
 ## 👤 Auteur
 **Bastou OURO-TAGBA**
